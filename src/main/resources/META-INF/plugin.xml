@@ -1,0 +1,12 @@
+<!-- Plugin Configuration File. Read more: https://plugins.jetbrains.com/docs/intellij/plugin-configuration-file.html -->
+<idea-plugin>
+    <id>com.intellij.modules.go-capable</id>
+    <name>Community2Enterprise go-capable</name>
+    <vendor>epa</vendor>
+
+    <depends>com.intellij.modules.platform</depends>
+    <dependencies>
+        <plugin id="com.intellij.modules.lang" />
+        <plugin id="com.intellij.modules.ultimate" />
+    </dependencies>
+</idea-plugin>
